@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply mb-[5%] mx-[5%] bg-[#0d1117] text-white font-sans;
+  }
+}
+
+@layer utilities {
+  .h3 {
+    @apply text-[10px] xl:text-[14.5px] lg:text-[14.5px];
+  }
+
+  .card {
+    @apply rounded-xl overflow-hidden;
+  }
+
+  .recipe-img {
+    @apply rounded-2xl object-cover w-full h-full;
+  }
+
+  .title {
+    @apply absolute z-10 bottom-0 left-0 h-[40%] w-full flex justify-center items-center text-center text-white text-[14px] overflow-hidden font-semibold xl:text-[18px]  lg:text-[18px] md:text-[16px];
+  }
+  .Slink {
+    @apply flex items-center text-center justify-center gap-2 lg:gap-[2rem] md:gap-[1rem] xl:gap-[3rem] my-[1rem];
+  }
+
+  .Slink button {
+    @apply rounded-full bg-[#30363d] h-[3.5rem] w-[3.5rem] xl:h-[4.5rem] xl:w-[4.5rem] lg:h-[4.5rem] lg:w-[4.5rem] overflow-hidden text-white cursor-pointer border-none;
+  }
+
+  .Slink button.active {
+    @apply bg-orange-700 text-black;
+  }
+
+  .Links {
+    @apply flex justify-center items-center flex-col;
+  }
+  .searchInput {
+    @apply bg-black rounded-3xl w-full mt-5 h-[2.5rem] border-none outline-none px-[3rem] py-[1rem] text-white text-[20px] flex justify-center items-center;
+  }
+
+  .seacrchSvg {
+    @apply text-white size-5;
+  }
+  button {
+    @apply border border-black p-2 text-white text-[17px] font-semibold bg-[#30363d] xl:w-[9rem] xl:h-[3rem]  rounded-xl;
+  }
+  .actives {
+    @apply bg-orange-700 text-black;
+  }
+
+  .slick-slider img {
+    width: calc(100% - 20px); /* Subtract the gap width from the slide width */
+  }
+}
