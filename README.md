@@ -17,7 +17,7 @@ Cravee is a delightful food recipe web application built with React.js and Tailw
 - **React Router**: For managing application routing and navigation.
 
 ## Live Demo
-Check out the deployed version here: [Live Demo]([<insert-deployment-link>](https://crave-food-delta.vercel.app/))
+Check out the deployed version here: [Live Demo]([https://crave-food-delta.vercel.app/])
 
 ## Feedback and Support
 
