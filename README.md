@@ -16,15 +16,8 @@ Cravee is a delightful food recipe web application built with React.js and Tailw
 - **Spoonacular API**: A powerful API providing access to a vast collection of food and recipe data.
 - **React Router**: For managing application routing and navigation.
 
-## Getting Started
-
-To get started with the Spoonacular Recipe and Food Web App:
-
-1. Clone the repository to your local machine.
-2. Run `npm install` or `yarn` in the project directory to install the required dependencies.
-3. Run `npm run start` or `yarn start` to get the project started.
-4. Open [http://localhost:5173](http://localhost:5174) (or the address shown in your console) in your web browser to view the app.
-5. Explore the delightful world of culinary delights and indulge in a feast for the senses!
+## Live Demo
+Check out the deployed version here: [Live Demo]([<insert-deployment-link>](https://crave-food-delta.vercel.app/))
 
 ## Feedback and Support
 
